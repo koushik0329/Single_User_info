@@ -9,4 +9,13 @@
 struct User : Decodable{
     var name: String
     var gender: String
+    
+    
+    
+    enum CodingKeys: String, CodingKey {
+        case name
+        case gender
+    }
 }
+
+
