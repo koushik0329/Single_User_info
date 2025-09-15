@@ -7,6 +7,8 @@
 
 import Foundation
 
+
+
 class UserViewModel {
     var user: User?
     
